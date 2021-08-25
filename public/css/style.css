@@ -1,0 +1,104 @@
+/* Anthony Moriarty */
+
+.header {
+    position: sticky;
+    position: -webkit-sticky;
+    /* For Safari */
+    width: 100vw;
+    top: 0;
+    border-top: 5px transparent white;
+    border-right: 5px transparent white;
+    border-left: 5px transparent white;
+    padding-top: 20px;
+    background-color: blueviolet;
+
+}
+
+#header_logo {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: 8vw;
+    min-width: 50px;
+    max-width: 200px;
+}
+
+.header_title {
+    text-decoration: none;
+    padding-left: 1vw;
+    color: whitesmoke;
+    font-size: 4vw;
+    padding-bottom: 2vw;
+}
+
+/* osxzxso - Styles for the nav bar/menu. The active indicator, which is the "bold undelrine" look, is using the same color as the div1 text (which was grabbed from the CS Club logo font color). More tabs can be added, then essentially, we will have to adjust the width percentage accordingly, or begin to use @media queries to make the site responsive and switch to a "hamburger" style menu on certain size displays if/when the current style becomes too congested with additional pages, etc... */
+
+.topnav {
+    position: relative;
+    color: whitesmoke;
+}
+
+.topnav a, .topnav a:hover {
+    text-decoration: none;
+    display: inline-block;
+    width: 25%;
+    padding: 1em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.topnav a.active {
+    border-bottom: 7px solid #4e0d78;
+
+}
+
+/* osxzxso - The font color for div1 was grabbed from the CS Club Logo font color. It can be changed to any other color, black, etc... when we decide on a specifc color/hex. */
+
+.div1 h2, p {
+    color: #4e0d78;
+}
+
+/* Name Here */
+
+.div2 {
+    /*Any div2 css here*/
+}
+
+/* Name Here */
+
+.div3 {
+    /*Any div3 css here*/
+}
+
+/* Abe Stroschein */
+
+.footer {
+    background-color: blueviolet;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* Copied off stthomas.edu footer */
+}
+
+.footer p {
+    color: whitesmoke;
+
+}
+
+/* osxzxso - Styles for the social icons in the footer. For some reason the Discord icon was naturally larger than the others, so there is separate sizing for that specific icon. As of now, hover effects (like color changing upon hover is "inactive" but can be activated at any time by switching the color/hex. */
+
+.socialIcons a {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#social-dc {
+    font-size: 38px;
+}
+
+.socialIcons a:hover {
+    color: whitesmoke;
+    text-decoration: none;
